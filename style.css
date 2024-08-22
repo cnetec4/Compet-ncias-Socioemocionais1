@@ -1,0 +1,100 @@
+/*
+Seletor {
+propriedade: valor;}
+*/
+
+* {
+    /*seletor universal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #363636;
+
+}
+
+header {
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 10vh;
+}
+
+#titulo {
+    color: #dcdcdc;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+#titulo i {
+    font-size: 30px;
+}
+
+#titulo p {
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navegacao nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#navegacao nav a{
+    text-decoration: none;
+    color: #dcdcdc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    transition: all 2s ease;
+}
+
+#navegacao nav a:hover{
+    border-bottom: 2px solid #DCDCDC;
+    font-weight: 700;
+}
+
+#login{
+    margin-right: 50px;
+}
+
+#login button{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: all 1s ease;
+}
+
+#login button:hover{
+    background-color: #1c1c1c;
+    border: 2px solid #dcdcdc;
+    color: #DCDCDC;
+}
+
+main{
+ height: 427px;
+}
+
+footer {
+    background-color: #DCDCDC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 15vh;
+    
+}
+
+#RedesSociais {
+    margin-right: 10px;
+}
